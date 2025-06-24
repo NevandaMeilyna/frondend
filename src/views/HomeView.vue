@@ -1,4 +1,5 @@
 <template>
+  <!-- membuat halaman home -->
   <div>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
