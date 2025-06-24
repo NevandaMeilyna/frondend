@@ -4,7 +4,7 @@ import AdminView from '../views/AdminView.vue'
 
 const routes = [
   { path: '/', name: 'Home', component: HomeView },
-  { path: '/admin', name: 'Admin', component: AdminView },
+  { path: '/admin', name: 'Admin', component: AdminView }, //menambahkan halaman admin
 ]
 
 export default createRouter({
