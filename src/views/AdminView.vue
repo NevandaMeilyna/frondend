@@ -71,7 +71,7 @@ export default {
   methods: {
     async addBouquet() {
       await axios.post(BASE_URL, this.form);
-      this.form = { name: "", description: "", price: "" };
+      this.form = { name: "", description: "", price: "" }; // method untuk menambahkan data
       this.refreshData();
     },
     async deleteBouquet(id) {
