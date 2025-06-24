@@ -75,7 +75,7 @@ export default {
       this.refreshData();
     },
     async deleteBouquet(id) {
-      await axios.delete(`${BASE_URL}/${id}`);
+      await axios.delete(`${BASE_URL}/${id}`); //method untuk delate data
       this.bouquets = this.bouquets.filter(b => b.id !== id);
     },
     startEdit(bouquet) {
