@@ -50,7 +50,7 @@ export default {
     };
   },
   async created() {
-    const res = await axios.get("https://backend-saya.nevameiy.workers.dev/api/bouquets");
+    const res = await axios.get("https://backend-saya.nevameiy.workers.dev/api/bouquets"); //panggil endpoint api
     this.bouquets = res.data;
   },
   methods: {
