@@ -1,4 +1,5 @@
 <template>
+  <!-- menambahkan admin -->
   <div class="container mt-5">
     <h2>Admin Dashboard</h2>
 
