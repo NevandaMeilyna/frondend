@@ -95,7 +95,7 @@ export default {
     async refreshData() {
       const res = await axios.get(BASE_URL);
       this.bouquets = res.data;
-    }
+    } //methhod untuk edit/update data
   }
 };
 </script>
